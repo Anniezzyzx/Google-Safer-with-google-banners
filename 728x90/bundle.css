@@ -154,11 +154,11 @@ body {
   transform: translate(639px, -13px) scale(0.5);
 }
 
-.check-animation {
-  background: url("check_anim_2x.png");
+.lock-animation {
+  background: url("lock_anim_2x.png");
   width: 80px;
   height: 80px;
-  transform: translate(58px, 20px) scale(0.4);
+  transform: translate(257px, -12px) scale(0.8);
 }
 
 #cta {
@@ -172,9 +172,9 @@ body {
 }
 .sprite-png { background-image: url('sprite.png') }
 .sprite-png.cta {
-  width: 91px;
+  width: 90px;
   height: 30px;
-  background-position: -732px -480px;
+  background-position: -732px -384px;
   background-size: 1461px 669px; }
 .sprite-png.txt-10 {
   width: 728px;
@@ -186,53 +186,48 @@ body {
   height: 90px;
   background-position: 0px -96px;
   background-size: 1461px 669px; }
-.sprite-png.txt-12 {
+.sprite-png.txt-1 {
   width: 728px;
   height: 90px;
   background-position: 0px -192px;
   background-size: 1461px 669px; }
-.sprite-png.txt-1 {
+.sprite-png.txt-2 {
   width: 728px;
   height: 90px;
   background-position: 0px -288px;
   background-size: 1461px 669px; }
-.sprite-png.txt-2 {
+.sprite-png.txt-3 {
   width: 728px;
   height: 90px;
   background-position: 0px -384px;
   background-size: 1461px 669px; }
-.sprite-png.txt-3 {
+.sprite-png.txt-4 {
   width: 728px;
   height: 90px;
   background-position: 0px -480px;
   background-size: 1461px 669px; }
-.sprite-png.txt-4 {
+.sprite-png.txt-5 {
   width: 728px;
   height: 90px;
   background-position: 0px -576px;
   background-size: 1461px 669px; }
-.sprite-png.txt-5 {
+.sprite-png.txt-6 {
   width: 728px;
   height: 90px;
   background-position: -732px 0px;
   background-size: 1461px 669px; }
-.sprite-png.txt-6 {
+.sprite-png.txt-7 {
   width: 728px;
   height: 90px;
   background-position: -732px -96px;
   background-size: 1461px 669px; }
-.sprite-png.txt-7 {
+.sprite-png.txt-8 {
   width: 728px;
   height: 90px;
   background-position: -732px -192px;
   background-size: 1461px 669px; }
-.sprite-png.txt-8 {
-  width: 728px;
-  height: 90px;
-  background-position: -732px -288px;
-  background-size: 1461px 669px; }
 .sprite-png.txt-9 {
   width: 728px;
   height: 90px;
-  background-position: -732px -384px;
+  background-position: -732px -288px;
   background-size: 1461px 669px; }

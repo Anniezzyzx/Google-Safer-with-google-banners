@@ -77,12 +77,17 @@
             },
             onComplete: rollover
           });
-          tl.from('#txt-1,#txt-2,#txt-3,#txt-4,#txt-5,#txt-6,#txt-7,#txt-8,#txt-9,#txt-10,#txt-11,#txt-12', 0.4, {
+          tl.from('#txt-1,#txt-2,#txt-3,#txt-4,#txt-5,#txt-6,#txt-7,#txt-8,#txt-9,#txt-10,#txt-11,#txt-12,#safer-lockup,#cta', 0.4, {
             stagger: 0.2,
             autoAlpha: 0,
             y: 10
-          }).add(animeCheck('#txt-6'), 1.5) //.add(animeLogo(), 2)
-          ;
+          }).add(animeLock('#txt-4'), 1) // .add(animeLogo(), 2)
+          // Phone button click
+          .to('#device-button', 0.1, {
+            scale: 0.9
+          }).to('#device-button', 0.2, {
+            scale: 1
+          });
           dom.ad_content.classList.remove('invisible');
         } // Spritesheets ------------------------------------------------
         // function animeLogo() {
@@ -95,14 +100,14 @@
         // }
 
 
-        function animeCheck(_pillDiv) {
+        function animeLock(_pillDiv) {
           var _spriteW = 80;
-          var _spriteFrames = 11;
+          var _spriteFrames = 10;
 
           var _totalPosition = "-" + _spriteW * _spriteFrames + "px 0";
 
           var tl = gsap.timeline();
-          tl.to('.check-animation', {
+          tl.to('.lock-animation', {
             duration: 0.5,
             backgroundPosition: _totalPosition,
             ease: "steps( " + _spriteFrames + ")"

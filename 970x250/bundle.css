@@ -147,110 +147,119 @@ body {
 }
 
 /* ---------------------------------------- */
-.check-animation {
-  background: url("check_anim_2x.png");
+.lock-animation {
+  background: url("lock_anim_2x.png");
   width: 80px;
   height: 80px;
-  transform: translate(560px, 52px) scale(0.5);
+  transform: translate(349px, 42px) scale(1);
+}
+
+#device-button {
+  transform-origin: 80% 90%;
 }
 
 #cta {
-  top: 192px;
+  top: 200px;
   left: 233px;
 }
 
 #device {
-  top: 12px;
-  left: 626px;
+  top: 5px;
+  left: 635px;
 }
 
 #logo {
-  top: 27px;
-  left: 28px;
+  top: 20px;
+  left: 20px;
 }
 
 #safer-lockup {
-  top: 191px;
-  left: 28px;
+  top: 203px;
+  left: 20px;
 }
 .sprite-png { background-image: url('sprite.png') }
 .sprite-png.cta {
-  width: 92px;
-  height: 31px;
-  background-position: -474px -1530px;
-  background-size: 1947px 1764px; }
-.sprite-png.device {
-  width: 323px;
-  height: 233px;
-  background-position: 0px -1530px;
-  background-size: 1947px 1764px; }
-.sprite-png.logo {
-  width: 117px;
-  height: 38px;
-  background-position: -327px -1569px;
-  background-size: 1947px 1764px; }
-.sprite-png.safer-lockup {
-  width: 142px;
-  height: 35px;
-  background-position: -327px -1530px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-10 {
+  width: 90px;
+  height: 30px;
+  background-position: -1413px -1560px;
+  background-size: 1947px 1782px; }
+.sprite-png.device-button {
   width: 970px;
   height: 250px;
   background-position: 0px 0px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-11 {
+  background-size: 1947px 1782px; }
+.sprite-png.device {
+  width: 330px;
+  height: 245px;
+  background-position: -975px -1530px;
+  background-size: 1947px 1782px; }
+.sprite-png.logo {
+  width: 97px;
+  height: 31px;
+  background-position: -1311px -1560px;
+  background-size: 1947px 1782px; }
+.sprite-png.safer-lockup {
+  width: 162px;
+  height: 24px;
+  background-position: -1311px -1530px;
+  background-size: 1947px 1782px; }
+.sprite-png.txt-10 {
   width: 970px;
   height: 250px;
   background-position: 0px -255px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-12 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-11 {
   width: 970px;
   height: 250px;
   background-position: 0px -510px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-1 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-12 {
   width: 970px;
   height: 250px;
   background-position: -975px 0px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-2 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-1 {
   width: 970px;
   height: 250px;
   background-position: -975px -255px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-3 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-2 {
   width: 970px;
   height: 250px;
   background-position: -975px -510px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-4 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-3 {
   width: 970px;
   height: 250px;
   background-position: 0px -765px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-5 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-4 {
   width: 970px;
   height: 250px;
   background-position: -975px -765px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-6 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-5 {
   width: 970px;
   height: 250px;
   background-position: 0px -1020px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-7 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-6 {
   width: 970px;
   height: 250px;
   background-position: -975px -1020px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-8 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-7 {
   width: 970px;
   height: 250px;
   background-position: 0px -1275px;
-  background-size: 1947px 1764px; }
-.sprite-png.txt-9 {
+  background-size: 1947px 1782px; }
+.sprite-png.txt-8 {
   width: 970px;
   height: 250px;
   background-position: -975px -1275px;
-  background-size: 1947px 1764px; }
+  background-size: 1947px 1782px; }
+.sprite-png.txt-9 {
+  width: 970px;
+  height: 250px;
+  background-position: 0px -1530px;
+  background-size: 1947px 1782px; }

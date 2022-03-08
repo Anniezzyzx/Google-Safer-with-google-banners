@@ -81,7 +81,7 @@
             stagger: 0.2,
             autoAlpha: 0,
             y: 10
-          }).add(animeCheck('#txt-6'), 1.5).add(animeLogo(), 2);
+          }).add(animeLock('#txt-4'), 1).add(animeLogo(), 2);
           dom.ad_content.classList.remove('invisible');
         } // Spritesheets ------------------------------------------------
 
@@ -101,14 +101,14 @@
           return tl;
         }
 
-        function animeCheck(_pillDiv) {
+        function animeLock(_pillDiv) {
           var _spriteW = 80;
-          var _spriteFrames = 11;
+          var _spriteFrames = 10;
 
           var _totalPosition = "-" + _spriteW * _spriteFrames + "px 0";
 
           var tl = gsap.timeline();
-          tl.to('.check-animation', {
+          tl.to('.lock-animation', {
             duration: 0.5,
             backgroundPosition: _totalPosition,
             ease: "steps( " + _spriteFrames + ")"
