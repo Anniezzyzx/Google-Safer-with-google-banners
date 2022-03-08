@@ -77,11 +77,11 @@
             },
             onComplete: rollover
           });
-          tl.from('#txt-1,#txt-2,#txt-3,#txt-4,#txt-5,#txt-6,#txt-7', 0.4, {
+          tl.from('#txt-1,#txt-2,#txt-3,#txt-4,#txt-5,#txt-6,#txt-7,#txt-8,#txt-9,#txt-10,#txt-11,#txt-12', 0.4, {
             stagger: 0.2,
             autoAlpha: 0,
             y: 10
-          }).add(animeCheck('#txt-3'), 1).add(animeLogo(), 2);
+          }).add(animeCheck('#txt-6'), 1.5).add(animeLogo(), 2);
           dom.ad_content.classList.remove('invisible');
         } // Spritesheets ------------------------------------------------
 

@@ -158,7 +158,7 @@ body {
   background: url("check_anim_2x.png");
   width: 80px;
   height: 80px;
-  transform: translate(94px, -22px) scale(0.2);
+  transform: translate(10px, -8px) scale(0.2);
 }
 
 #cta {
@@ -174,45 +174,70 @@ body {
 .sprite-png.cta {
   width: 91px;
   height: 30px;
-  background-position: -201px -108px;
-  background-size: 522px 411px; }
+  background-position: -525px -162px;
+  background-size: 846px 519px; }
 .sprite-png.device {
   width: 196px;
   height: 139px;
   background-position: 0px 0px;
-  background-size: 522px 411px; }
-.sprite-png.txt-1 {
+  background-size: 846px 519px; }
+.sprite-png.txt-10 {
   width: 320px;
   height: 50px;
   background-position: -201px 0px;
-  background-size: 522px 411px; }
-.sprite-png.txt-2 {
+  background-size: 846px 519px; }
+.sprite-png.txt-11 {
   width: 320px;
   height: 50px;
   background-position: -201px -54px;
-  background-size: 522px 411px; }
-.sprite-png.txt-3 {
+  background-size: 846px 519px; }
+.sprite-png.txt-12 {
   width: 320px;
   height: 50px;
   background-position: 0px -144px;
-  background-size: 522px 411px; }
-.sprite-png.txt-4 {
+  background-size: 846px 519px; }
+.sprite-png.txt-1 {
   width: 320px;
   height: 50px;
   background-position: 0px -198px;
-  background-size: 522px 411px; }
-.sprite-png.txt-5 {
+  background-size: 846px 519px; }
+.sprite-png.txt-2 {
   width: 320px;
   height: 50px;
   background-position: 0px -252px;
-  background-size: 522px 411px; }
-.sprite-png.txt-6 {
+  background-size: 846px 519px; }
+.sprite-png.txt-3 {
   width: 320px;
   height: 50px;
   background-position: 0px -306px;
-  background-size: 522px 411px; }
-.sprite-png.txt-7 {
+  background-size: 846px 519px; }
+.sprite-png.txt-4 {
   width: 320px;
   height: 50px;
   background-position: 0px -360px;
-  background-size: 522px 411px; }
+  background-size: 846px 519px; }
+.sprite-png.txt-5 {
+  width: 320px;
+  height: 50px;
+  background-position: 0px -414px;
+  background-size: 846px 519px; }
+.sprite-png.txt-6 {
+  width: 320px;
+  height: 50px;
+  background-position: 0px -468px;
+  background-size: 846px 519px; }
+.sprite-png.txt-7 {
+  width: 320px;
+  height: 50px;
+  background-position: -525px 0px;
+  background-size: 846px 519px; }
+.sprite-png.txt-8 {
+  width: 320px;
+  height: 50px;
+  background-position: -525px -54px;
+  background-size: 846px 519px; }
+.sprite-png.txt-9 {
+  width: 320px;
+  height: 50px;
+  background-position: -525px -108px;
+  background-size: 846px 519px; }

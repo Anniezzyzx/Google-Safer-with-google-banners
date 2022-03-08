@@ -158,11 +158,7 @@ body {
   background: url("check_anim_2x.png");
   width: 80px;
   height: 80px;
-  transform: translate(206px, -13px) scale(0.3);
-}
-
-#device-button {
-  transform-origin: 60% 90%;
+  transform: translate(118px, 9px) scale(0.35);
 }
 
 #cta {
@@ -178,50 +174,70 @@ body {
 .sprite-png.cta {
   width: 73px;
   height: 25px;
-  background-position: -810px -510px;
-  background-size: 915px 762px; }
-.sprite-png.device-button {
+  background-position: -195px -765px;
+  background-size: 1221px 903px; }
+.sprite-png.device {
+  width: 189px;
+  height: 136px;
+  background-position: 0px -765px;
+  background-size: 1221px 903px; }
+.sprite-png.txt-10 {
   width: 300px;
   height: 250px;
   background-position: 0px 0px;
-  background-size: 915px 762px; }
-.sprite-png.device {
-  width: 193px;
-  height: 137px;
-  background-position: -612px -510px;
-  background-size: 915px 762px; }
-.sprite-png.txt-1 {
+  background-size: 1221px 903px; }
+.sprite-png.txt-11 {
   width: 300px;
   height: 250px;
   background-position: -306px 0px;
-  background-size: 915px 762px; }
-.sprite-png.txt-2 {
+  background-size: 1221px 903px; }
+.sprite-png.txt-12 {
   width: 300px;
   height: 250px;
   background-position: 0px -255px;
-  background-size: 915px 762px; }
-.sprite-png.txt-3 {
+  background-size: 1221px 903px; }
+.sprite-png.txt-1 {
   width: 300px;
   height: 250px;
   background-position: -306px -255px;
-  background-size: 915px 762px; }
-.sprite-png.txt-4 {
+  background-size: 1221px 903px; }
+.sprite-png.txt-2 {
   width: 300px;
   height: 250px;
   background-position: -612px 0px;
-  background-size: 915px 762px; }
-.sprite-png.txt-5 {
+  background-size: 1221px 903px; }
+.sprite-png.txt-3 {
   width: 300px;
   height: 250px;
   background-position: -612px -255px;
-  background-size: 915px 762px; }
-.sprite-png.txt-6 {
+  background-size: 1221px 903px; }
+.sprite-png.txt-4 {
   width: 300px;
   height: 250px;
   background-position: 0px -510px;
-  background-size: 915px 762px; }
-.sprite-png.txt-7 {
+  background-size: 1221px 903px; }
+.sprite-png.txt-5 {
   width: 300px;
   height: 250px;
   background-position: -306px -510px;
-  background-size: 915px 762px; }
+  background-size: 1221px 903px; }
+.sprite-png.txt-6 {
+  width: 300px;
+  height: 250px;
+  background-position: -612px -510px;
+  background-size: 1221px 903px; }
+.sprite-png.txt-7 {
+  width: 300px;
+  height: 250px;
+  background-position: -918px 0px;
+  background-size: 1221px 903px; }
+.sprite-png.txt-8 {
+  width: 300px;
+  height: 250px;
+  background-position: -918px -255px;
+  background-size: 1221px 903px; }
+.sprite-png.txt-9 {
+  width: 300px;
+  height: 250px;
+  background-position: -918px -510px;
+  background-size: 1221px 903px; }
